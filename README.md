@@ -1,3 +1,40 @@
+## step 1 :
+
+> go to > https://console.cloud.google.com/ > API & service > credential > crate a project > project name > create
+
+## step 2 :
+
+it apear [**configure consent screen**] warning
+
+for solve this
+search **OAth consent screen**
+<br>_or_<br>
+click on [**configure consent screen**]
+(both will go to same place )
+
+> configure consent screen > choose external user type > continue > App name , user support email , developer email (are mendetory fieleds)
+>
+> #### save and continue
+
+## step 3 :
+
+add script tag in index.html
+```js
+<script src="https://accounts.google.com/gsi/client" async defer > </script>
+```
+
+add dependancy 
+```
+npm i jwt-decode
+```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
